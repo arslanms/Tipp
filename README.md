@@ -20,14 +20,14 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
--[X] Light and Dark theme that saves when the app is closed.
+- [X] Light and Dark theme that saves when the app is closed.
 - [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/TbTE981.gifv' title=‘App Demo’ width='' alt=‘App Demo’ />
+<blockquote class="imgur-embed-pub" lang="en" data-id="TbTE981"><a href="//imgur.com/TbTE981">App Demo</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -35,9 +35,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+The hardest problem I face while making this app was making the settings portion. I was unsure how to use NSUserDefaults to connect the two view controllers nor did I know which methods did the codes go in. It took a lot of tweaking and online tutorials before I finally understood what to do. Afterwards, NSUSerDefaults became very easy to me and I was able to use it to create the theme changing switch.
+
 ## License
 
-    Copyright [2015 [Arslan Sadiq]
+    Copyright [2015] [Arslan Sadiq]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
